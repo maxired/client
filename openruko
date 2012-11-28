@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # openruko client tool
+unset http_proxy
+unset https_proxy
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 export PATH=$DIR/heroku-client/bin:$PATH
